@@ -4,47 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8539ec33-8382-4828-a3b0-304d5aedbe45" name="Changes" comment="third_commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_hateoas_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/BillingServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/entities/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/entities/ProductItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/repositories/BillRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/repositories/ProductItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/services/CustomerRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/services/ProductRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/example/billingservice/web/BillRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/test/java/com/example/billingservice/BillingServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="8539ec33-8382-4828-a3b0-304d5aedbe45" name="Changes" comment="fourth_commit">
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/OrderNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/entities/OderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/web/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/org/sid/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/org/sid/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/org/sid/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -99,6 +71,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.sid.orderservice" />
+      <recent name="org.sid.orderservice.entities" />
       <recent name="com.example.billingservice.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -109,7 +83,7 @@
       <recent name="$PROJECT_DIR$/.." />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BillingServiceApplication">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="billing-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.billingservice.BillingServiceApplication" />
@@ -170,7 +144,7 @@
       <updated>1672783514231</updated>
       <workItem from="1672783518521" duration="1121000" />
       <workItem from="1673994990489" duration="6349000" />
-      <workItem from="1674064882884" duration="11994000" />
+      <workItem from="1674064882884" duration="19637000" />
     </task>
     <task id="LOCAL-00001" summary="second_commit">
       <created>1674066304808</created>
@@ -186,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674066646998</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fourth_commit">
+      <created>1674080111858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674080111858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +188,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="second_commit" />
     <MESSAGE value="third_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third_commit" />
+    <MESSAGE value="fourth_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth_commit" />
   </component>
 </project>
